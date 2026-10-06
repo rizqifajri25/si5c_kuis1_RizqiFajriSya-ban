@@ -7,7 +7,7 @@ let menu = [
 ];
 let nextId = 6;
 
-function getAll(menu) {
+function getAll(kategori) {
   if (kategori) return menu.filter((m) => m.kategori === kategori);
   return menu;
 }

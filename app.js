@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   res.send('Server Express.js berjalan!');
 });
 
-app.use('/menu', menuRoutes);
+app.use('/menu-items', menuRoutes);
 
 // error handler (paling bawah)
 app.use(notFoundHandler);
